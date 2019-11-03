@@ -1,0 +1,37 @@
+body{
+    margin: 0; 
+    background-color:white ;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight:320;
+    float: right;
+} 
+
+h1{
+    margin: 0%;
+    background-color: aqua;
+
+}
+
+.container{
+    width: 960px;
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+}
+
+header:after{
+content:"" ;
+display:table;
+clear:both;
+}
+
+.navbar{
+    float: left;
+}
+
+nav{
+    float: right;
+
+}
